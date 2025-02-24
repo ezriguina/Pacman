@@ -71,6 +71,7 @@ export class Pacman extends gameObject {
       this.pacmanlives--;
       this.spawnPacman();
     }
+    
   }
 
   testCollideFood(food) {
