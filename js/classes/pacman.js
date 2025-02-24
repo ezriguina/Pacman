@@ -67,11 +67,11 @@ export class Pacman extends gameObject {
 
     if (distancia < IMAGE_SIZE) {
       // Has chocado con una roca
-      alert("Has xocat amb una roca, has perdut una vida");
+      alert("Has xocat amb roca, has perdut una vida");
       this.pacmanlives--;
       this.spawnPacman();
     }
-    
+
   }
 
   testCollideFood(food) {
